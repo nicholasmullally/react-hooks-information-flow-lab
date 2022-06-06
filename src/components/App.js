@@ -22,4 +22,20 @@ function App() {
   );
 }
 
+function Header() {
+  return (
+    <div>
+       <button onClick={(e) => {onDarkModeClick}}>
+          {isDarkMode ? "Dark" : "Light"} Mode
+        </button>
+    </div>
+  );
+}
+
+function Filter() {
+  return (
+   
+  );
+}
+
 export default App;
